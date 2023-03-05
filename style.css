@@ -1,0 +1,180 @@
+body{
+    margin:0;
+    background-color:  #d4d3d3;
+}
+
+.header{
+    text-align: center;
+    background-color: #ffffff;
+    font-family: "Helvetica", "sans-serif";
+    padding-top:3rem;
+    padding-bottom:3rem;
+    border-bottom: 2px solid #646464;
+}
+
+.header-content{
+    margin-top:0;
+    margin-bottom:0;
+    margin-left:1rem;
+    margin-right:1rem;
+}
+
+#title{
+    padding-top:1rem;
+    font-weight: normal;
+    font-size: 2.5rem;
+}
+
+#subtitle{
+    padding-top:0.5rem;
+    font-weight: normal;
+    font-size: 1rem;
+}
+
+#conference{
+    padding-top:0.5rem;
+    font-weight: normal;
+    font-size: 1rem;
+}
+
+#authors{
+    padding-top:0.5rem;
+    font-weight: normal;
+    font-size: 1rem;
+}
+
+#university{
+    padding-top:0.5rem;
+    font-size: 1rem;
+}
+
+#links{
+    padding-top:1rem;
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+}
+
+#banner{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+    max-height: 1000px;
+    max-width: 100%;
+}
+
+.body{
+    text-align: center;
+    font-family: "Helvetica", "sans-serif";
+    background-color: #ffffff;
+    margin-left:auto;
+    margin-right:auto;
+
+    border-bottom-left-radius: 15px 15px;
+    border-bottom-right-radius: 15px 15px;
+
+    border-left: 2px solid #646464;
+    border-right: 2px solid #646464;
+    border-bottom: 2px solid #646464;
+
+    margin-bottom: 5rem;
+    max-width: 1200px;
+}
+
+hr{
+    height:0;
+    border:0;
+    border-top:0.5px solid;
+    box-sizing: content-box;
+}
+
+.body-title{
+    /* padding-bottom:1rem; */
+    font-weight: normal;
+    font-size:1.7rem;
+}
+
+.abstract{
+    margin-left:auto;
+    margin-right:auto;
+    padding-left:75px;
+    padding-right:75px;
+    /* max-width:1500px; */
+    vertical-align: middle;
+}
+
+#abstract-body{
+    text-align: left;
+}
+
+.dataset{
+    margin-left:auto;
+    margin-right:auto;
+    padding-left:75px;
+    padding-right:75px;
+    /* max-width:1000px; */
+    vertical-align: middle;
+}
+
+.dataset-body{
+    text-align: center;
+}
+
+#model-viewers{
+    display:flex;
+}
+
+.viewers{
+    flex: 0 0 16.66667%;
+    max-width: 16.66666%;
+    padding-left:1rem;
+    padding-right:1rem;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.citations{
+    margin-left:auto;
+    margin-right:auto;
+    padding-left:75px;
+    padding-right:75px;
+    /* max-width:1000px; */
+    vertical-align: middle;
+}
+
+#citations-body{
+    text-align: left;
+}
+
+.citation{
+    color: #e83e8c;
+}
+
+.icon{
+    height: 1.5rem;
+    padding-bottom:0.25rem;
+    vertical-align: middle;
+}
+
+.link{
+    text-decoration: none;
+}
+
+.button{
+    margin: 10px;
+    font-size: 1.25rem;
+    background-color: #646464;
+    border: 2px solid #646464;
+    border-radius: 1.5rem;
+    padding: .5rem;
+    color: #ffffff;
+}
+
+.code{
+    background-color: #eee;
+    border: 1px solid #999;
+    display: block;
+    padding: 5px;
+    text-align: left;
+    color: #e83e8c;
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fantastic Breaks Dataset</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.0.1/model-viewer.min.js"></script>
+</head>
+<body>
+    
+    <div class="header">
+        <h2 class="header-content", id="title">Fantastic Breaks<br></h2>
+        <h4 class="header-content", id="subtitle"><i>A Dataset of Paired 3D Scans of Real-World Broken Objects and Their Complete Counterparts</i></h4>
+        <h3 class="header-content", id="conference"><i>CVPR 2023</i></h3>
+        <p class="header-content", id="authors">
+            <a href = "https://nikwl.github.io/" target="_blank" class="link">Nikolas Lamb</a>,
+            <!-- <a href = "https://example.com" target="_blank" class="link"> -->
+                Cameron Palmer,
+            <!-- </a> -->
+            <!-- <a href = "https://example.com" target="_blank" class="link"> -->
+                Ben Molloy,
+            <!-- </a> -->
+            <a href = "https://docs.google.com/document/d/1Ee6Be9gR2qmjGu9X8PPQJYi2Wnwnv7BPE8-jgFFeJUo/edit" target="_blank" class="link">Sean Banerjee</a>,
+            <a href = "https://docs.google.com/document/d/1DHxngxY1ZuI3Rcvfc8cJRhR-4Qflo7yMpdjomYNDfsU/edit" target="_blank" class="link">Natasha Kholgade Banerjee</a>, 
+        </p>
+        <p class="header-content", id="university"><a href="https://tars.clarkson.edu/" target="_blank" class="link">Terascale All-sensing Research Studio (TARS)</a> at Clarkson University, USA</p>
+        <p class="header-content", id="links">
+            
+            <a href="https://example.com" target="_blank", class="link button"><img src="assets/paper_icon_transparent_white.png" alt="paper icon" class="icon"> Paper (Coming Soon)</a>
+            <a href="https://example.com" target="_blank", class="link button"><img src="assets/drive_icon.png" alt="drive icon" class="icon"> Data (Coming Soon)</a>
+            
+        </p>
+    </div>
+
+    <div class="body">
+        <br>
+        <img src="assets/image_cloud.png" alt="Collection of broken objects" id="banner" height="90%" width="90%">
+
+        <div class="abstract content">
+            <hr>
+            <h3 class="body-title">Abstract</h3>
+            <p id="abstract-body">
+                Automated shape repair approaches currently lack access to datasets that describe real-world damage geometry. We present <i>Fantastic Breaks</i>, a dataset containing scanned, waterproofed, and cleaned 3D meshes for 150 broken objects, paired and geometrically aligned with complete counterparts. <i>Fantastic Breaks</i> contains class and material labels, synthetic proxies of repair parts that join to broken meshes to generate complete meshes, and manually annotated fracture boundaries. Through a detailed analysis of fracture geometry, we reveal differences between <i>Fantastic Breaks</i> and datasets of synthetically fractured objects generated using geometric and physics-based methods. We show experimental results of shape repair with <i>Fantastic Breaks</i> using multiple learning-based approaches pre-trained using a synthetic dataset and re-trained using a subset of <i>Fantastic Breaks</i>.
+            </p>
+        </div>
+
+        <div class="dataset content">
+            <hr>
+            <h3 class="body-title">Object Demo</h3>
+
+            <div id="model-viewers">
+                <model-viewer class="viewers" src="https://raw.githubusercontent.com/Terascale-All-sensing-Research-Studio/FantasticBreaks/site/models/01018_complete_reduced.glb" camera-orbit="90deg 90deg 105%" auto-rotate="" camera-controls="" ar-status="not-presenting" alt="cube"> </model-viewer>
+                <model-viewer class="viewers" src="https://raw.githubusercontent.com/Terascale-All-sensing-Research-Studio/FantasticBreaks/site/models/01018_colored.glb" camera-orbit="90deg 90deg 105%" auto-rotate="" camera-controls="" ar-status="not-presenting" alt="cube"> </model-viewer>
+                <model-viewer class="viewers" src="https://raw.githubusercontent.com/Terascale-All-sensing-Research-Studio/FantasticBreaks/site/models/02017_complete_reduced.glb" camera-orbit="90deg 90deg 105%" auto-rotate="" camera-controls="" ar-status="not-presenting" alt="cube"> </model-viewer>
+                <model-viewer class="viewers" src="https://raw.githubusercontent.com/Terascale-All-sensing-Research-Studio/FantasticBreaks/site/models/02017_colored.glb" camera-orbit="90deg 90deg 105%" auto-rotate="" camera-controls="" ar-status="not-presenting" alt="cube"> </model-viewer>
+                
+            </div>
+            <br>            
+        </div>
+
+        <div class="citations content">
+            <hr>
+            <h3 class = "body-title">Citation</h3>
+            <p id="citations-body">
+                <pre>
+                    <code class="code">
+    @inproceedings{lamb2023fantastic,
+        title={Fantastic Breaks: A Dataset of Paired 3D Scans of Real-World Broken Objects and Their Complete Counterparts},
+        author={Lamb, Nikolas and Palmer, Cameron and Molloy, Ben and Banerjee, Sean and Banerjee, Natasha Kholgade},
+        booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+        year={2023}
+    }
+                    </code>
+                </pre>
+        </div>
+        <br>
+        
+    </div>
+</body>
+</html>

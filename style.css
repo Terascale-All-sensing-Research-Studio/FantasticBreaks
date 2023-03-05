@@ -142,10 +142,6 @@ hr{
     vertical-align: middle;
 }
 
-#citations-body{
-    text-align: left;
-}
-
 .citation{
     color: #e83e8c;
 }
@@ -177,4 +173,5 @@ hr{
     padding: 5px;
     text-align: left;
     color: #e83e8c;
+    white-space: pre-wrap;
 }
